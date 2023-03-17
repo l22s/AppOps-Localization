@@ -24,7 +24,7 @@
     <string name="menu_options">الخيارات</string>
     <string name="menu_delete">حذف</string>
     <string name="menu_users">المستخدمون</string>
-    <string name="menu_about">عن</string>
+    <string name="menu_about">معلومات التطبيق</string>
     <string name="app_detail_version">إصدار %1$s</string>
     <string name="app_view_item_not_modified">غير معدل</string>
     <string name="system_app">تطبيق النظام</string>
@@ -98,26 +98,26 @@
     <plurals name="app_view_item_modified">
         <item quantity="zero">تم تعديل عنصر %d</item>
         <item quantity="one">تم تعديل عنصر %d</item>
-        <item quantity="two"/>
-        <item quantity="few"/>
+        <item quantity="two">تم تعديل عنصر %d</item>
+        <item quantity="few">تم تعديل عنصر %d</item>
         <item quantity="many">تم تعديل %d عنصر</item>
-        <item quantity="other"/>
+        <item quantity="other">تم تعديل عنصر %d</item>
     </plurals>
     <plurals name="permissions_view_item_summary">
         <item quantity="zero">%1$d تطبيق</item>
         <item quantity="one">%1$d تطبيق</item>
-        <item quantity="two"/>
-        <item quantity="few"/>
+        <item quantity="two">%1$d تطبيق</item>
+        <item quantity="few">%1$d تطبيق</item>
         <item quantity="many">%1$d تطبيقات</item>
-        <item quantity="other"/>
+        <item quantity="other">%1$d تطبيق</item>
     </plurals>
     <plurals name="backup_review_templates_title">
         <item quantity="zero">%1$d نموذج</item>
         <item quantity="one">%1$d قالب</item>
-        <item quantity="two"/>
-        <item quantity="few"/>
+        <item quantity="two">%1$d قوالب</item>
+        <item quantity="few">%1$d قوالب</item>
         <item quantity="many">%1$d قوالب</item>
-        <item quantity="other"/>
+        <item quantity="other">%1$d قوالب</item>
     </plurals>
     <string name="usage_history">سجل الاستخدام</string>
     <string name="apps_view">عرض التطبيقات</string>
@@ -161,12 +161,12 @@
     <string name="template_menu_set_as_default">تعيين كافتراضي</string>
     <string name="usage_monitor_notification_title">\"%1$s\" يستخدم %2$s</string>
     <plurals name="template_item_summary">
-        <item quantity="zero">غرض %1$d</item>
+        <item quantity="zero">عنصر %1$d</item>
         <item quantity="one">عنصر %1$d</item>
-        <item quantity="two"/>
-        <item quantity="few"/>
+        <item quantity="two">عناصر %1$d</item>
+        <item quantity="few">عناصر %1$d</item>
         <item quantity="many">عناصر %1$d</item>
-        <item quantity="other"/>
+        <item quantity="other">عناصر %1$d</item>
     </plurals>
     <string name="template_default_title">بدون عنوان</string>
     <string name="template_create">إنشاء نموذج…</string>
@@ -428,11 +428,11 @@
     <string name="op_name_LOCATION">استخدام الموقع</string>
     <string name="op_desc_READ_CLIPBOARD">في Android 10 أو أعلى ، يمكن للتطبيقات قراءة الحافظة فقط إذا كانت في المقدمة.</string>
     <string name="op_desc_ACCESS_MEDIA_LOCATION">اسمح للتطبيق بقراءة المواقع من ملفات الوسائط (عبر متجر الوسائط).</string>
-    <string name="op_name_WRITE_MEDIA_IMAGES">اكتب مجموعة الصور الخاصة بك</string>
-    <string name="op_name_WRITE_MEDIA_VIDEO">اكتب مجموعة الفيديو الخاصة بك</string>
-    <string name="op_name_READ_MEDIA_IMAGES">قراءة مجموعة الصور الخاصة بك</string>
-    <string name="op_name_READ_MEDIA_VIDEO">قراءة مجموعة الفيديو الخاصة بك</string>
-    <string name="op_name_WRITE_MEDIA_AUDIO">اكتب مجموعتك الموسيقية</string>
+    <string name="op_name_WRITE_MEDIA_IMAGES">اكتب وسائط الصور الخاصة بك</string>
+    <string name="op_name_WRITE_MEDIA_VIDEO">اكتب وسائط الفيديو الخاصة بك</string>
+    <string name="op_name_READ_MEDIA_IMAGES">قراءة وسائط الصور الخاصة بك</string>
+    <string name="op_name_READ_MEDIA_VIDEO">قراءة وسائط الفيديو الخاصة بك</string>
+    <string name="op_name_WRITE_MEDIA_AUDIO">اكتب وسائط الموسيقية</string>
     <string name="op_name_SMS_FINANCIAL_TRANSACTIONS">الوصول إلى الرسائل SMS المتميزة</string>
     <string name="op_name_USE_BIOMETRIC">استخدام الأجهزة البيومترية</string>
     <string name="op_name_REQUEST_DELETE_PACKAGES">طلب حذف الحزمة</string>
