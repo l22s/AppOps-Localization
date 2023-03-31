@@ -98,26 +98,26 @@
     <plurals name="app_view_item_modified">
         <item quantity="zero">تم تعديل عنصر %d</item>
         <item quantity="one">تم تعديل عنصر %d</item>
-        <item quantity="two"/>
-        <item quantity="few"/>
+        <item quantity="two">تم تعديل عنصر %d</item>
+        <item quantity="few">تم تعديل عنصر %d</item>
         <item quantity="many">تم تعديل %d عنصر</item>
-        <item quantity="other"/>
+        <item quantity="other">تم تعديل عنصر %d</item>
     </plurals>
     <plurals name="permissions_view_item_summary">
         <item quantity="zero">%1$d تطبيق</item>
         <item quantity="one">%1$d تطبيق</item>
-        <item quantity="two"/>
-        <item quantity="few"/>
+        <item quantity="two">%1$d تطبيق</item>
+        <item quantity="few">%1$d تطبيق</item>
         <item quantity="many">%1$d تطبيقات</item>
-        <item quantity="other"/>
+        <item quantity="other">%1$d تطبيقات</item>
     </plurals>
     <plurals name="backup_review_templates_title">
         <item quantity="zero">%1$d نموذج</item>
         <item quantity="one">%1$d قالب</item>
-        <item quantity="two"/>
-        <item quantity="few"/>
+        <item quantity="two">%1$d قوالب</item>
+        <item quantity="few">%1$d قوالب</item>
         <item quantity="many">%1$d قوالب</item>
-        <item quantity="other"/>
+        <item quantity="other">%1$d قوالب</item>
     </plurals>
     <string name="usage_history">سجل الاستخدام</string>
     <string name="apps_view">عرض التطبيقات</string>
@@ -161,12 +161,12 @@
     <string name="template_menu_set_as_default">تعيين كافتراضي</string>
     <string name="usage_monitor_notification_title">\"%1$s\" يستخدم %2$s</string>
     <plurals name="template_item_summary">
-        <item quantity="zero">غرض %1$d</item>
+        <item quantity="zero">عنصر %1$d</item>
         <item quantity="one">عنصر %1$d</item>
-        <item quantity="two"/>
-        <item quantity="few"/>
+        <item quantity="two">عنصرين %1$d</item>
+        <item quantity="few">عناصر %1$d</item>
         <item quantity="many">عناصر %1$d</item>
-        <item quantity="other"/>
+        <item quantity="other">عناصر %1$d</item>
     </plurals>
     <string name="template_default_title">بدون عنوان</string>
     <string name="template_create">إنشاء نموذج…</string>
