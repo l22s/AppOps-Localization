@@ -24,7 +24,7 @@
     <string name="menu_options">الخيارات</string>
     <string name="menu_delete">حذف</string>
     <string name="menu_users">المستخدمون</string>
-    <string name="menu_about">عن</string>
+    <string name="menu_about">حول التطبيق</string>
     <string name="app_detail_version">إصدار %1$s</string>
     <string name="app_view_item_not_modified">غير معدل</string>
     <string name="system_app">تطبيق النظام</string>
@@ -98,26 +98,26 @@
     <plurals name="app_view_item_modified">
         <item quantity="zero">تم تعديل عنصر %d</item>
         <item quantity="one">تم تعديل عنصر %d</item>
-        <item quantity="two"/>
-        <item quantity="few"/>
+        <item quantity="two">تم تعديل عنصر %d</item>
+        <item quantity="few">تم تعديل عنصر %d</item>
         <item quantity="many">تم تعديل %d عنصر</item>
-        <item quantity="other"/>
+        <item quantity="other">تم تعديل عنصر %d</item>
     </plurals>
     <plurals name="permissions_view_item_summary">
-        <item quantity="zero">%1$d تطبيق</item>
+        <item quantity="zero">%1$d لايوجد تطبيق</item>
         <item quantity="one">%1$d تطبيق</item>
-        <item quantity="two"/>
-        <item quantity="few"/>
+        <item quantity="two">%1$d تطبيقين</item>
+        <item quantity="few">%1$d تطبيقات</item>
         <item quantity="many">%1$d تطبيقات</item>
-        <item quantity="other"/>
+        <item quantity="other">%1$d تطبيقات</item>
     </plurals>
     <plurals name="backup_review_templates_title">
-        <item quantity="zero">%1$d نموذج</item>
+        <item quantity="zero">%1$d لايوجد نموذج</item>
         <item quantity="one">%1$d قالب</item>
-        <item quantity="two"/>
-        <item quantity="few"/>
+        <item quantity="two">%1$d نموذجين</item>
+        <item quantity="few">%1$d قالب</item>
         <item quantity="many">%1$d قوالب</item>
-        <item quantity="other"/>
+        <item quantity="other">%1$d قالب</item>
     </plurals>
     <string name="usage_history">سجل الاستخدام</string>
     <string name="apps_view">عرض التطبيقات</string>
@@ -136,7 +136,7 @@
     <string name="worker_service_notification_title">يعمل…</string>
     <string name="cannot_open_browser_dialog_title">لا يمكن بدء المتصفح</string>
     <string name="shizuku_mode_error_manager_app_not_installed">الرجاء تثبيت Shizuku أولاً. &lt;p&gt;يعد Shizuku مشروعًا مفتوح المصدر يبدأ من عام 2017 (راجع %s في GitHub). إنه مصمم لإفادة العديد من التطبيقات التي تتطلب الجذر أو adb. ليس هذا التطبيق فقط ,ولكن أيضًا بعض التطبيقات من مطورين آخرين تستخدم Shizuku. &lt;p&gt;مع Shizuku ,سيحصل هذا التطبيق على سرعة عالية بشكل لا يصدق وميزات أكثر إثارة. بالنسبة إلى Shizuku نفسها ,فإن استهلاك البطارية أو الأداء ضئيل (صفر عند عدم استخدامها). &lt;p&gt; مثل فلسفة Unix ,يجب أن يقوم برنامج واحد بعمل واحد فقط. يتبع Shizuku وهذا التطبيق هذه الفلسفة. في الواقع ,كل شيء مدمج يشبه إلى حد كبير ما تحب أن تفعله \"التطبيقات السيئة\".</string>
-    <string name="monitors_notification_title">👨🏻‍💻 %s</string>
+    <string name="monitors_notification_title">👨🏻‍💻مراقب %s</string>
     <string name="monitors_notification_summary">انقر للحصول على الإعداد الاشعارات.</string>
     <string name="monitors_notification_channel_label">حالة التشغيل</string>
     <string name="monitors_service_label">خدمة المراقبة</string>
@@ -161,12 +161,12 @@
     <string name="template_menu_set_as_default">تعيين كافتراضي</string>
     <string name="usage_monitor_notification_title">\"%1$s\" يستخدم %2$s</string>
     <plurals name="template_item_summary">
-        <item quantity="zero">غرض %1$d</item>
+        <item quantity="zero">لايوجد عنصر %1$d</item>
         <item quantity="one">عنصر %1$d</item>
-        <item quantity="two"/>
-        <item quantity="few"/>
+        <item quantity="two">عنصرين %1$d</item>
+        <item quantity="few">عناصر %1$d</item>
         <item quantity="many">عناصر %1$d</item>
-        <item quantity="other"/>
+        <item quantity="other">عناصر %1$d</item>
     </plurals>
     <string name="template_default_title">بدون عنوان</string>
     <string name="template_create">إنشاء نموذج…</string>
@@ -270,7 +270,7 @@
     <string name="menu_set_as">تعيين كـ</string>
     <string name="menu_last_used_first">آخر استخدام أولا</string>
     <string name="menu_show_framework">إظهار تطبيقات إطار النظام</string>
-    <string name="menu_changelog">التغيير</string>
+    <string name="menu_changelog">سجل التغيرات</string>
     <string name="menu_sort_by_app_name">حسب اسم التطبيق</string>
     <string name="menu_more">المزيد من الخيارات</string>
     <string name="menu_show_app_info_in">إظهار معلومات التطبيق في…</string>
@@ -317,7 +317,7 @@
     <string name="include_system_apps_dialog_button_skip">تخطي تطبيقات النظام</string>
     <string name="include_system_app_button_dialog_do_not_skip">لا تخطي</string>
     <string name="template_edit_dialog_not_saved_message">لقد أجريت بعض التغييرات ، حفظ؟</string>
-    <string name="template_edit_title">لقب</string>
+    <string name="template_edit_title">تعديل قالب</string>
     <string name="working_mode_button_continue">استمر</string>
     <string name="working_mode_button_switch">قم بالتبديل إلى وضع عمل آخر</string>
     <string name="include_system_apps_dialog_message">يمكن أن تتسبب العمليات غير الصحيحة لتطبيقات النظام المهمة في حدوث مشكلات لا رجعة فيها. كن حذرا.
@@ -455,7 +455,7 @@
     <string name="usage_history_system_version_too_low_title">إصدار Android غير متوافق</string>
     <string name="usage_history_system_version_too_low_message">يتطلب سجل الاستخدام %1$s ، تعمل أجهزتك %2$s.</string>
     <plurals name="usage_history_and_more_apps">
-        <item quantity="zero">و%1$d تطبيق واحد آخر</item>
+        <item quantity="zero">و%1$d لايوجد تطبيق</item>
         <item quantity="one">و %1$d تطبيقًا آخر</item>
         <item quantity="two">و %1$d تطبيقان آخران</item>
         <item quantity="few">و %1$d تطبيقًا آخر</item>
@@ -502,4 +502,7 @@
     <string name="op_desc_TOAST_WINDOW_30_app_pre_30">يستهدف التطبيق API 29 أو أقل ، لذا سيعمل تعديل هذا الإذن لهذا التطبيق.</string>
     <string name="op_desc_TOAST_WINDOW_30_app_30">يستهدف التطبيق API 30 أو أعلى ، لذا فإن تعديل هذا الإذن لهذا التطبيق ليس له أي تأثير عملي. &lt;p&gt; للتحكم في ما إذا كان هذا التطبيق يمكنه عرض Toast أم لا ، يمكنك فقط تعديل إذن SystemUI ، ولكنه سيؤثر على النظام وجميع هذه التطبيقات.</string>
     <string name="op_desc_TOAST_WINDOW_30">يعمل جهازك بنظام Android 11 أو أعلى ، بالنسبة للتطبيقات التي تستهدف API 30+ ، يتم عرض Toast من خلال SystemUI بدلاً من التطبيق نفسه.</string>
+    <string name="op_desc_WRITE_EXTERNAL_STORAGE_30"><![CDATA[يقوم جهازك بتشغيل Android 11 أو أعلى ، يمكن للتطبيقات إنشاء ملفات في المجلدات القياسية <b>بدون أي أذونات</b>.]]></string>
+    <string name="storage_permission_30"><![CDATA[يقوم جهازك بتشغيل Android 11 أو أعلى ، ويسمح نظام Android لجميع التطبيقات بكتابة الملفات في المجلدات القياسية <b>بدون أي أذونات</b>.<p>هذا يعني أنه بغض النظر عن كيفية تعديل الإذن (سواء في هذا التطبيق أو في النظام) ، يمكن للتطبيق دائمًا كتابة الملفات إلى المجلد القياسي.<p>* يشير المجلد القياسي إلى سلسلة من المجلدات المعرفة بالنظام مثل DCIM ، الصور ، التنزيل ، إلخ.]]></string>
+
 </resources>
